@@ -6,7 +6,7 @@ const Tweet = ({ users }) => {
 
     useEffect(() => { 
     const isFollowing = JSON.parse(localStorage.getItem("isFollow"));
-        if (isFollowing.length) {setIsFollow(isFollowing)}
+        if (isFollowing) {setIsFollow(isFollowing)}
     }, [])
 
     useEffect(() => { 
