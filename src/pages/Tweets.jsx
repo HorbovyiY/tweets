@@ -18,7 +18,6 @@ const Tweets = () => {
     
     const onPageChange = () => { 
         setPage(prevState => prevState + 1)
-        console.log(page)
     }
 
     return (
