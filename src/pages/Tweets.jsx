@@ -3,7 +3,6 @@ import * as API from "../services/api";
 import Tweet from "../components/Tweet/Tweet";
 import { Back, StyledLink, UserList } from "./Tweets.styled";
 import LoadMore from "components/LoadMore/LoadMore";
-// import { Link } from "react-router-dom";
 
 const Tweets = () => { 
     const [users, setUsers] = useState([]);
